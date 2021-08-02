@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 50px;
 }
 
 #header-sect div#covid-link a {
