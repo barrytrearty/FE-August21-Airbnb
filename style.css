@@ -1,5 +1,5 @@
 body {
-  font-family: Circular;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* #header-sect {
@@ -112,5 +112,5 @@ body {
   border: none;
   color: rgb(221, 5, 221);
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
 }
