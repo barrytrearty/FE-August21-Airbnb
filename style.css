@@ -114,3 +114,65 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(100, 97, 97, 0.267);
+  color: black;
+  width: 92%;
+  height: 4rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.explore-text h5,
+#discover-experiences h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 0.5;
+  margin-top: 1rem;
+}
+
+.explore-text h6,
+#discover-experiences h6 {
+  font-size: 0.8rem;
+  /* line-height: 0; */
+}
+
+.explore-card img {
+  margin-right: 10px;
+  width: 4rem;
+  border-radius: 12%;
+}
+
+#live-anywhere img,
+#discover-experiences img {
+  width: 100%;
+  border-radius: 4%;
+}
+
+#live-anywhere h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* #greatest-outdoors {
+  height: 100px;
+} */
+
+#greatest-outdoors img {
+  height: 32rem;
+  /* border-radius: 6%; */
+  object-fit: cover;
+  object-position: 50% 120%;
+}
+
+#try-hosting img {
+  border-radius: 6%;
+}
