@@ -22,13 +22,41 @@
       <div id="covid-link">
         <a href="#">Get the latest on our COVID-19 response</a>
       </div>
-      <div class="header-container">
-        <div class="searchbar">
-          <div></div>
-          <div class="search-text">
-            <i class="bi bi-search search-icon"></i> Where are you going?
+      <div class="toplist mt-md-3">
+        <ul class="d-none d-md-flex">
+          <li>Places to Stay</li>
+          <li>Experiences</li>
+          <li>Online Experiences</li>
+        </ul>
+      </div>
+
+      <div class="header-container mt-md-5">
+        <div class="row searchbar mt-md-5">
+          <div class="col-1"></div>
+          <div class="search-text-small d-md-none col-10">
+            <i class="bi bi-search search-icon-small"></i> Where are you going?
           </div>
-          <div></div>
+          <div class="search-text-big d-none d-md-block col-4">
+            <h5>Location</h5>
+            <h6>Where are you going?</h6>
+          </div>
+          <div class="search-text-big d-none d-md-block col-2">
+            <h5>Check in</h5>
+            <h6>Add dates</h6>
+          </div>
+          <div class="search-text-big d-none d-md-block col-2">
+            <h5>Check out</h5>
+            <h6>Add dates</h6>
+          </div>
+          <div class="search-text-big d-none d-md-block col-2">
+            <h5>Guests</h5>
+            <h6>Add guests</h6>
+          </div>
+          <div class="col-1">
+            <div class="search-circle d-none d-md-block">
+              <i class="bi bi-search search-icon-big"></i>
+            </div>
+          </div>
         </div>
       </div>
       <div class="tagline-container">
@@ -49,9 +77,12 @@
     <!-- EXPLORE NEARBY -->
     <div id="main" class="container">
       <div class="row title-row pt-4">
-        <h2 class="section-heading">Explore nearby</h2>
+        <h2 class="section-heading px-5 px-md-0">Explore nearby</h2>
       </div>
-      <div id="explore-nearby" class="row row-cols-2 row-cols-md-4">
+      <div
+        id="explore-nearby"
+        class="row row-cols-2 row-cols-md-4 px-5 px-md-0"
+      >
         <div class="col px-1">
           <div class="explore-card">
             <img src="Assets/airbnb/assets/imgs/homepage/explore1.jpg" alt="" />
@@ -127,9 +158,9 @@
       </div>
       <!-- LIVE ANYWHERE -->
       <div class="row title-row pt-4">
-        <h2 class="section-heading">Live Anywhere</h2>
+        <h2 class="section-heading px-5 px-md-0">Live Anywhere</h2>
       </div>
-      <div id="live-anywhere" class="row row-cols-2 row-cols-md-4">
+      <div id="live-anywhere" class="row row-cols-2 row-cols-md-4 px-5 px-md-0">
         <div class="col px-1">
           <img src="Assets/airbnb/assets/imgs/homepage/live1.jpg" alt="" />
           <h4>Outdoor getaways</h4>
@@ -148,15 +179,15 @@
         </div>
       </div>
       <!-- THE GREATEST OUTDOORS -->
-      <div id="greatest-outdoors" class="row row-cols-1 pt-4">
+      <div id="greatest-outdoors" class="row row-cols-1 pt-4 px-5 px-md-0">
         <img src="Assets/airbnb/assets/imgs/homepage/greatest.jpg" alt="" />
       </div>
 
       <!-- DISCOVER EXPERIENCES -->
       <div class="row title-row">
-        <h2 class="section-heading">Discover Experiences</h2>
+        <h2 class="section-heading pt-4 px-5 px-md-0">Discover Experiences</h2>
       </div>
-      <div id="discover-experiences" class="row row-cols-3">
+      <div id="discover-experiences" class="row row-cols-3 px-5 px-md-0">
         <div class="col px-1">
           <img src="Assets/airbnb/assets/imgs/homepage/discover1.jpg" alt="" />
           <h5>Pets allowed</h5>
@@ -175,18 +206,84 @@
       </div>
 
       <!--TRY HOSTING -->
-      <div id="try-hosting" class="row row-cols-1 pt-4">
+      <div id="try-hosting" class="row row-cols-1 pt-4 px-5 px-md-0">
         <img src="Assets/airbnb/assets/imgs/homepage/tryhosting.jpg" alt="" />
+        <div class="hosting-text">
+          <h2>Try Hosting</h2>
+          <p>
+            Earn extra income and unlock new opportunities by sharing your space
+          </p>
+          <button>Learn More</button>
+        </div>
       </div>
 
       <!-- FUTURE GETAWAYS1-->
       <div class="row title-row pt-4">
-        <h2 class="section-heading">Inspiration for future getaways</h2>
+        <h2 class="section-heading px-5 px-md-0">
+          Inspiration for future getaways
+        </h2>
       </div>
       <div id="future-getaways1" class="row"></div>
 
       <!-- FUTURE GETAWAYS2-->
-      <div id="future-getaways2" class="row"></div>
+      <div
+        id="about"
+        class="
+          row row-cols-1 row-cols-sm-2 row-cols-md-4
+          px-5 px-md-1
+          pt-4 pt-md-1
+        "
+      >
+        <div class="col px-1">
+          <ul>
+            <li class="about-title">ABOUT</li>
+            <li>How Airbnb works</li>
+            <li>Newsroom</li>
+            <li>Airbnb 2021</li>
+            <li>Investors</li>
+            <li>Airbnb Plus</li>
+            <li>Airbnb Luxe</li>
+            <li>HotelTonight</li>
+            <li>Airbnb for Work</li>
+            <li>Made possible by Hosts</li>
+            <li>Careers</li>
+            <li>Founders' Letter</li>
+          </ul>
+        </div>
+        <div class="col px-1">
+          <ul>
+            <li class="about-title">COMMUNITY</li>
+            <li>Diversity & Belonging</li>
+            <li>Accessibility</li>
+            <li>Airbnb Associates</li>
+            <li>Frontline Stays</li>
+            <li>Guest Referrals</li>
+            <li>Airbnb.org</li>
+          </ul>
+        </div>
+        <div class="col px-1">
+          <ul>
+            <li class="about-title">HOST</li>
+            <li>Host your home</li>
+            <li>Host an Online Experience</li>
+            <li>Host an Experience</li>
+            <li>Responsible hosting</li>
+            <li>Refer hosts</li>
+            <li>Resource Centre</li>
+            <li>Community Centre</li>
+          </ul>
+        </div>
+        <div class="col px-1">
+          <ul>
+            <li class="about-title">SUPPORT</li>
+            <li>Our COVID-19 Response</li>
+            <li>Help Centre</li>
+            <li>Cancellation options</li>
+            <li>Neighbourhood Support</li>
+            <li>Trust & Safety</li>
+          </ul>
+        </div>
+      </div>
 
       <!-- FOOTER-->
       <div id="footer" class="row"></div>
